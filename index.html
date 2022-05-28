@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Hat</title>
+    <link rel="stylesheet" href="src/styles/styles.css" />
+  </head>
+  <body>
+    <div class="flex justify-center items-center flex-column">
+      <h1>The Sorting Hat!</h1>
+      <ol>
+        <li><input type="text" class="txt1"/></li>
+        <li><input type="text" class="txt2"/></li>
+        <li><input type="text" class="txt3"/></li>
+        <li><input type="text" class="txt4"/></li>
+      </ol>
+      <button class="btnList" onclick="listTheNames()">List The Wizards!</button>
+      <button class="hidden btnSort" onclick="sortThemIntoHouses()">Sort Them Into the houses!</button>
+      <div class="wizards"></div>
+    </div>
+
+    <script src="src/scripts/script.js" ></script>
+  </body>
+</html>
